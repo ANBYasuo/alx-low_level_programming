@@ -7,8 +7,9 @@ int main(void)
 {
 	char Alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	int i = 0;
+	int size = sizeof(Alpha);
 
-	for ( ; i < sizeof(Alpha) ; i++)
+	for ( ; i < size ; i++)
 	{
 	if (Alpha[i] == '\0')
 		putchar('\n');
